@@ -21,3 +21,6 @@ Auto save and restore ui data framework for Android.
     public HashMap<String, Student> mMap;
     @SafeUiData
     public Teacher mTeacher;
+
+
+框架原理类似butterknife的APT思路，供参考。
