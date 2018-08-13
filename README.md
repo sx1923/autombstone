@@ -8,19 +8,19 @@ Auto save and restore ui data framework for Android.
 
 
     @SafeUiData
-    public String mStrTestValue;
+    String strTestValue;
     @SafeUiData
-    public int mIntTestValue;
+    int intTestValue;
     @SafeUiData
-    public Student mStudent;
+    Student student;
     @SafeUiData
-    public ArrayList<String> mStrList;
+    ArrayList<String> strList;
     @SafeUiData
-    public ArrayList<Student> mStudentList;
+    ArrayList<Student> studentList;
     @SafeUiData
-    public HashMap<String, Student> mMap;
+    HashMap<String, Student> map;
     @SafeUiData
-    public Teacher mTeacher;
+    Teacher teacher;
 
 
 框架原理类似butterknife的APT思路，供参考。
